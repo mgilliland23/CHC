@@ -1,0 +1,7 @@
+{
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/32db3dc5-8cdd-4c95-9c89-78905d5991d3/resourceGroups/appsvc_rg_linux_centralus/providers/Microsoft.Web/sites/cherryhill",
+    "appService.deploySubpath": "dist"
+}
