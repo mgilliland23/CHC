@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
   secure: true,
   auth: {
     user: 'mgilliland23@gmail.com ', // Enter here email address from which you want to send emails
-    pass: 'mattg#23 ' // Enter here password for email account from which you want to send emails
+    pass: '' // Enter here password for email account from which you want to send emails
   },
   tls: {
   rejectUnauthorized: false
