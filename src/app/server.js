@@ -32,13 +32,16 @@ app.post('/send', function (req, res) {
 
   let senderName = req.body.contactFormName;
   let senderEmail = req.body.contactFormEmail;
+  let senderPhone = req.body.contactFormPhone;
   let messageSubject = req.body.contactFormSubjects;
   let messageText = req.body.contactFormMessage;
   let copyToSender = req.body.contactFormCopy;
+  
 
   let mailOptions = {
     to: ['mgilliland23@gmail.com'], // Enter here the email address on which you want to send emails from your customers
     from: senderName,
+    phone: senderPhone,
     subject: messageSubject,
     text: messageText,
     replyTo: senderEmail
@@ -53,6 +56,14 @@ app.post('/send', function (req, res) {
   }
 
   if (senderEmail === '') {
+    res.status(400);
+    res.send({
+    message: 'Bad request'
+    });
+    return;
+  }
+
+  if (senderPhone === '') {
     res.status(400);
     res.send({
     message: 'Bad request'

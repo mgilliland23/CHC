@@ -1,11 +1,11 @@
 form{
  max-width: 600px;
  border: none !important;
-margin: 0 auto;   
+ margin: 0 auto;   
 }
 
 
-.background{
+.contactBackground{
     min-height: 100vh;
     background-image: linear-gradient(#29323c, #485563);
 }
@@ -28,4 +28,18 @@ label{
 .btn-block{
     width: 200px;
     margin: 40px auto;
+}
+
+h5{
+    color: white;
+    
+}
+.instagramButton{
+    margin: 30px auto;
+}
+
+#wrapper{
+    padding-top: 10em;
+    margin: auto auto;
+    text-align: center;
 }

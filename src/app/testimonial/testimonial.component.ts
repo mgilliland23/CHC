@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ViewEncapsulation } from '@angular/core'
 
-
+/* Disable view encapsulation so we can target bootstrap elements through css*/
 
 
 @Component({
