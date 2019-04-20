@@ -10,8 +10,18 @@ body{
 }
 
 .testimonial{
-    padding-top: 5em;
+    padding-top: 4em;
     margin-left: 2em;
     margin-right: 2em;
+    margin-top: 0;
     color: white;
+    
+}
+
+.mt-5, .my-5 {
+     margin-top: 0 !important; 
+}
+
+.carousel-indicators{
+    display: none !important;
 }
