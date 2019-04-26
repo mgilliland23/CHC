@@ -1,5 +1,5 @@
 form{
- max-width: 400px;
+ max-width: 500px;
  border: none !important;
  margin: 0 auto;   
  padding-bottom: 0;
@@ -9,6 +9,7 @@ form{
 .contactBackground{
     min-height: 100vh;
     background-color: #8FBCBB;
+    padding-top: 50px;
 }
 
 label{
@@ -40,8 +41,7 @@ span{
     color: white;
     line-height: 40px;
     margin: 10px;
-    font-weight: bold;
-    
+    font-size: 20px;
 }
 
 .p-5{
