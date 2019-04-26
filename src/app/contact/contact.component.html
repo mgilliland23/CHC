@@ -4,11 +4,37 @@
 
 
   <div class="container">
+
+    <div class="row topRow">
+      <div class="col-md-1"></div>
+
+      <div class="col-md-10 mx-auto">
+        <div class="text-center">
+          <!--Instagram-->
+          <h3>Connect with us on instagram!</h3>
+          <button type="button" mdbBtn class="btn-ins waves-light instagramBtn" mdbWavesEffect>
+            <i class="fab fa-instagram"></i></button>
+        </div>
+      </div>
+
+      <div class="col-md-1"></div>
+
+    </div>
+
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
-        <form class="text-center border border-light formBackground" [formGroup]="contactForm"
-          (ngSubmit)="onSubmit()">
+        <p> Use the form below to contact us and set up an appointment to talk about your upcoming project.</p>
+        <p> Or give us call directly at <a id="phoneNumber" href="tel:+1-845-594-4086">(845)594-4086</a></p>
+      </div>
+      <div class="col-md-1"></div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <form class="text-center border border-light formBackground" [formGroup]="contactForm" (ngSubmit)="onSubmit()">
           <br>
           <p class="h4 mb-4">Contact us</p>
 
@@ -45,21 +71,6 @@
         </form>
       </div>
       <div class="col-md-1"></div>
-    </div>
-    <div class="row">
-      <div class="col-md-1"></div>
-
-      <div class="col-md-10 mx-auto">
-        <div class="text-center">
-        <!--Instagram-->
-        <span>Connect with us on instagram!</span>
-        <button type="button" mdbBtn class="btn-ins waves-light instagramBtn" mdbWavesEffect>
-            <i class="fab fa-instagram"></i></button>
-          </div>
-      </div>
-     
-      <div class="col-md-1"></div>
-
     </div>
 
   </div>
