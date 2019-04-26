@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #88C0D0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+       // background-color: #4285F4;
+    }
+}

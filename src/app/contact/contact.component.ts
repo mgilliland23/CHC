@@ -25,6 +25,7 @@ optionsSelect: Array<any>;
   this.contactForm = fb.group({
     'contactFormName': ['', Validators.required],
     'contactFormEmail': ['', Validators.compose([Validators.required, Validators.email])],
+    'contactFormPhone': ['', Validators.required],
     'contactFormMessage': ['', Validators.required],
     'contactFormCopy': [''],
     });
