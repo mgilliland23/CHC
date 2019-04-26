@@ -5,6 +5,7 @@
 
   <div class="container">
     <div class="row">
+      <div class="col-md-1"></div>
       <div class="col-md-10">
         <form class="text-center border border-light p-5 formBackground" [formGroup]="contactForm"
           (ngSubmit)="onSubmit()">
@@ -43,17 +44,24 @@
 
         </form>
       </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
 
-      <div class="col-md-2">
-        <div id="wrapper">
-          <!--Instagram-->
-          <h5>Connect with us on instagram!</h5>
-          <button type="button instagramButton" mdbBtn class="btn-ins waves-light" mdbWavesEffect>
+      <div class="col-md-10 mx-auto">
+        <div class="text-center">
+        <!--Instagram-->
+        <span>Connect with us on instagram!</span>
+        <button type="button" mdbBtn class="btn-ins waves-light instagramBtn" mdbWavesEffect>
             <i class="fab fa-instagram"></i></button>
-        </div>
+          </div>
       </div>
+     
+      <div class="col-md-1"></div>
 
     </div>
+
   </div>
 
 </main>
