@@ -3,11 +3,25 @@
 }
 
 .top-nav-collapse {
-    background-color: #88C0D0;
+    background-color: white;
+    color: black;
+}
+
+.top-nav-collapse .nav-link{
+    color: black !important;
+}
+
+.top-nav-collapse .navbar-brand{
+    color: #000 !important;
 }
 
 @media only screen and (max-width: 768px) {
     .navbar {
        // background-color: #4285F4;
     }
+}
+
+.top-nav-collapse .navbar-toggler-icon {
+      background-image: url('assets/hamburger_menu.svg') !important;
+
 }
